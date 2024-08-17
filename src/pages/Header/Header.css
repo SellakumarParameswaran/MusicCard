@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Grey+Qo&family=Pacifico&display=swap');
+
+
+
+
+
+.Header__right >img{
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+}
+
+.Header{
+    display: flex;
+    align-items:center;
+    color: white;
+    background-color: purple;
+    top:0;
+    
+    position: sticky;
+    z-index: 2000;
+}
+.Header__right > h1{
+    
+    text-align: right;
+    letter-spacing: 1px;
+    margin-left: 500px;
+    font-size: 40px;
+    font-family:"Grey Qo",sans-serif;
+
+}
+.Header__right{
+    color: black;
+    display: flex;
+    margin-left: 200px;
+  align-items: center;
+    font-size: 12px;
+    font-family:"Grey Qo",sans-serif;
+}
+.contact__icon>a{
+    color: black;
+    display: flex;
+    margin-left: 10px;
+  align-items: center;
+    font-size: 22px;
+    font-family:"Grey Qo",sans-serif;
+}
+
+
+
+.Header__left{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Header__left > a > h4{
+
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+.Header__left > a > h4:hover{
+    transform: scale(1.02);
+    background-color: green;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 2px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+}
+
+.Header__right > h1 > span{
+    color: rgb(11, 231, 47);
+}
+
+
+

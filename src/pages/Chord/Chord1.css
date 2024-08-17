@@ -1,0 +1,44 @@
+.card>img{
+  
+    width: 31rem;
+}
+
+.card1>img{
+     width: 22rem;
+ }
+ 
+ .card2>img{
+     width: 38rem;
+ }
+ 
+ .card2{
+    margin-left: 100px;
+ }
+ 
+ .card1{
+    margin-left: 90px;
+ }
+ 
+.container{
+    margin-top: 50px;
+    display: flex;
+}
+.col-md-3{
+display: flex;
+justify-content:space-between;
+
+}
+.card>img:hover{
+    transform: scale(1.08);
+}
+.card1>img:hover{
+    transform: scale(1.08);
+}
+.card2>img:hover{
+    transform: scale(1.08);
+}
+
+    
+    
+
+
